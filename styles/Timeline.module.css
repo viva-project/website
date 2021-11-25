@@ -1,0 +1,42 @@
+.Timeline {
+    background: #ebd7c9;
+}
+
+.YearContainer {
+    display: flex;
+}
+
+.leftColumn,
+.rightColumn {
+    flex: 1;
+}
+
+.leftColumn {
+    background: #ebb3a3;
+}
+
+.rightColumn {
+    background: #7cbcde;
+}
+
+.centerColumn {
+    background: #8cde9a;
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 80px;
+    box-sizing: content-box;
+}
+
+.yearCircle {
+    width: 80px;
+    height: 80px;
+    background: #c8c8c8;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 22px;
+    font-size: 1.5em;
+}
+
+.yearItem {
+    display: flex;
+}
