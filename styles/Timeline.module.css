@@ -4,6 +4,21 @@
 
 .YearContainer {
     display: flex;
+    padding: 16px;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+}
+
+.YearContainer:hover {
+    opacity: 1;
+}
+
+.YearContainer:nth-child(odd) {
+    background: #1d2a22;
+}
+
+.YearContainer:nth-child(even) {
+    background: #161c18;
 }
 
 .leftColumn,
@@ -20,7 +35,8 @@
 }
 
 .centerColumn {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .yearCircle {
@@ -53,7 +69,7 @@
 .yearItem img,
 .body {
     border-radius: 4px;
-    transition: box-shadow .15s;
+    transition: box-shadow .2s;
 }
 
 .yearItem img:hover,
