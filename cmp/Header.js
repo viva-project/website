@@ -1,5 +1,5 @@
-export const Header = () => (
+export const Header = ({text}) => (
   <div>
-    <h1>Home Header</h1>
+    <h1>{text}</h1>
   </div>
 )

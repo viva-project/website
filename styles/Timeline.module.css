@@ -1,5 +1,5 @@
 .Timeline {
-    background: #ebd7c9;
+    /*background: #ebd7c9;*/
 }
 
 .YearContainer {
@@ -12,31 +12,77 @@
 }
 
 .leftColumn {
-    background: #ebb3a3;
+    /*background: #ebb3a3;*/
 }
 
 .rightColumn {
-    background: #7cbcde;
+    /*background: #7cbcde;*/
 }
 
 .centerColumn {
-    background: #8cde9a;
+
+}
+
+.yearCircle {
+    /*background: #8cde9a;*/
     border-radius: 50%;
-    border: 1px solid black;
+    border: 2px solid white;
     height: 80px;
     box-sizing: content-box;
 }
 
-.yearCircle {
+.yearCircleText {
     width: 80px;
     height: 80px;
-    background: #c8c8c8;
+    background: #161c18;
     text-align: center;
     border-radius: 50%;
     padding-top: 22px;
     font-size: 1.5em;
 }
 
-.yearItem {
+.yearItem h3 {
+    padding-left: 4px;
+    padding-top: 11px;
+}
+
+.yearItem img {
+    padding-left: 4px;
+}
+
+.yearItem img,
+.body {
+    border-radius: 4px;
+    transition: box-shadow .2s;
+}
+
+.yearItem img:hover,
+.body:hover {
+    box-shadow: 0 0 0 4px #f7f7f7;
+}
+
+.yearColumn {
     display: flex;
+    flex-direction: column;
+}
+
+.itemText {
+    width: 75%;
+    cursor: default;
+}
+
+.body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.yearLineContainer,
+.yearLine {
+    height: 100%;
+}
+
+.yearLine {
+    width: 50%;
+    border-right: 1px solid white;
 }
