@@ -53,7 +53,7 @@
 .yearItem img,
 .body {
     border-radius: 4px;
-    transition: box-shadow .2s;
+    transition: box-shadow .15s;
 }
 
 .yearItem img:hover,
