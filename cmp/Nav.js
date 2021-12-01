@@ -1,3 +1,4 @@
+import NextLink from 'next/link'
 import navStyles from '../styles/Nav.module.css'
 
 export const Nav = () => (
@@ -5,15 +6,15 @@ export const Nav = () => (
     <ul>
 
       <li>
-        <a href="/">Home</a>
+        <NextLink href="/">Home</NextLink>
       </li>
 
       <li>
-        <a href="/gallery">Gallery</a>
+        <NextLink href="/gallery">Gallery</NextLink>
       </li>
 
       <li>
-        <a href="/about">About</a>
+        <NextLink href="/about">About</NextLink>
       </li>
 
     </ul>
